@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int calculatePaperwork(int n, int m) {
+void calculatePaperwork(int n, int m) {
     if (n < 0) {
         n = 0;
     }
@@ -12,5 +12,4 @@ int calculatePaperwork(int n, int m) {
     printf("Value of n is %d \n", n);
     printf("Value of m is %d \n", m);
     printf("Paperwork copies needed %d \n", (n * m));
-
 }
